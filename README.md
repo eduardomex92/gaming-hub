@@ -4,6 +4,8 @@
 **Framework:** Angular  
 **Status:** In Progress / Educational Project
 
+---
+
 ## 📋 Overview
 
 Gaming Hub is a responsive Angular web application designed to simulate a modern gaming catalog. The app allows users to browse popular gaming platforms and view recent or iconic games from each platform, complete with detailed information such as release date, ESRB rating, and descriptions.
@@ -37,8 +39,20 @@ This project demonstrates core Angular concepts including components, routing, s
 ---
 
 ## 📁 Folder Structure
-<pre> ## 📁 Folder Structure ``` gaming-hub/ ├── src/ │ ├── app/ │ │ ├── components/ │ │ ├── services/ │ │ ├── models/ │ │ └── pages/ ├── assets/ ├── angular.json ├── package.json └── ... ``` </pre>
 
+```
+gaming-hub/
+├── src/
+│   ├── app/
+│   │   ├── components/
+│   │   ├── services/
+│   │   ├── models/
+│   │   └── pages/
+├── assets/
+├── angular.json
+├── package.json
+└── ...
+```
 
 ---
 
@@ -53,4 +67,31 @@ This project demonstrates core Angular concepts including components, routing, s
 
 ```bash
 npm install
+```
 
+### Run the app
+
+```bash
+ng serve
+```
+
+Navigate to `http://localhost:4200` to view the application.
+
+---
+
+## 🌐 Live Demo
+
+*Coming soon – to be deployed via GitHub Pages or Firebase Hosting*
+
+---
+
+## 📫 Contact
+
+**Heiner Alcala-Salas**  
+📧 Email: Eduardo_mex92@Outlook.com
+
+---
+
+## 📝 License
+
+This project was developed for educational and portfolio purposes.
