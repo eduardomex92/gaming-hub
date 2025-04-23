@@ -40,3 +40,17 @@ This project demonstrates core Angular concepts including components, routing, s
 <pre> ## 📁 Folder Structure ``` gaming-hub/ ├── src/ │ ├── app/ │ │ ├── components/ │ │ ├── services/ │ │ ├── models/ │ │ └── pages/ ├── assets/ ├── angular.json ├── package.json └── ... ``` </pre>
 
 
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js and npm installed
+- Angular CLI installed (`npm install -g @angular/cli`)
+
+### Install dependencies
+
+```bash
+npm install
+
