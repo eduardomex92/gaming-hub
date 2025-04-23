@@ -1,0 +1,43 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/tabs/platform"></ion-back-button>
+    </ion-buttons>
+    <ion-title>{{ platformName }} Games</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="platform-header" *ngIf="loading">
+    <ion-skeleton-text animated style="width: 60%; height: 2rem; margin: 0 auto;"></ion-skeleton-text>
+  </div>
+
+  <div class="platform-header" *ngIf="!loading">
+    <h2>{{ platformName }}</h2>
+  </div>
+  <ion-grid *ngIf="loading">
+    <ion-row>
+      <ion-col size="12" size-md="6" size-lg="4" *ngFor="let _ of [1, 2, 3, 4, 5]">
+        <ion-card>
+          <ion-skeleton-text class="skeleton-image" animated></ion-skeleton-text>
+          <ion-card-header>
+            <ion-skeleton-text animated style="width: 80%; height: 1rem;"></ion-skeleton-text>
+          </ion-card-header>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-grid *ngIf="!loading">
+    <ion-row>
+      <ion-col size="12" size-md="6" size-lg="4" *ngFor="let game of games">
+        <ion-card button [routerLink]="'/game-details/' + game.id" class="game-card">
+          <ion-img [src]="game.image" alt="{{ game.name }}"></ion-img>
+          <ion-card-header>
+            <ion-card-title>{{ game.name }}</ion-card-title>
+          </ion-card-header>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

@@ -1,0 +1,71 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>My Profile</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="profile-page">
+  <!-- Skeleton Loader -->
+  <div *ngIf="loading">
+    <ion-card>
+      <ion-skeleton-text animated class="profile-picture-skeleton"></ion-skeleton-text>
+      <ion-card-header>
+        <ion-skeleton-text animated></ion-skeleton-text>
+        <ion-skeleton-text animated></ion-skeleton-text>
+      </ion-card-header>
+      <ion-card-content>
+        <ion-skeleton-text animated></ion-skeleton-text>
+        <ion-skeleton-text animated></ion-skeleton-text>
+      </ion-card-content>
+    </ion-card>
+  </div>
+
+  <!-- Profile Content -->
+  <div *ngIf="!loading">
+    <!-- Profile Header -->
+    <div class="profile-header">
+      <div class="profile-picture-container">
+        <img
+          [src]="imageUrl || 'assets/default-profile.png'"
+          alt="Profile Picture"
+          class="profile-picture"
+        />
+        <ion-button fill="outline" size="small" (click)="captureImage()">Edit</ion-button>
+      </div>
+      <h2>Heiner Alcala</h2>
+      <p>Gaming Enthusiast & Developer</p>
+    </div>
+
+    <!-- Profile Information -->
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Personal Information</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <ion-item>
+          <ion-icon name="call-outline" slot="start"></ion-icon>
+          <ion-label>
+            <h2>Phone:</h2>
+            <p>+1 (555) 987-6543</p>
+          </ion-label>
+        </ion-item>
+
+        <ion-item>
+          <ion-icon name="mail-outline" slot="start"></ion-icon>
+          <ion-label>
+            <h2>Email:</h2>
+            <p>Heiner Alcala&#64;gaminghub.com</p>
+          </ion-label>
+        </ion-item>
+
+        <ion-item>
+          <ion-icon name="location-outline" slot="start"></ion-icon>
+          <ion-label>
+            <h2>Address:</h2>
+            <p>456 Game Avenue, Console City</p>
+          </ion-label>
+        </ion-item>
+      </ion-card-content>
+    </ion-card>
+  </div>
+</ion-content>

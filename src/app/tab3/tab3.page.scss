@@ -1,0 +1,65 @@
+.profile-header {
+    text-align: center;
+    padding: 20px;
+    background-color: hsl(0, 87%, 50%);
+  }
+  
+  ion-toolbar {
+    --background: linear-gradient(135deg, #ff1e1e, #af0909);
+    --color: white;
+  }
+  
+  .profile-picture-container {
+    position: relative;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+  }
+  
+  .profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px auto;
+    background: linear-gradient(90deg, #eeeeee 25%, #dddddd 50%, #eeeeee 75%);
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite;
+  }
+  
+  .profile-picture-container ion-button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(50%, 50%);
+  }
+  
+  .profile-picture-skeleton {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px auto;
+    background: linear-gradient(90deg, #eeeeee 25%, #dddddd 50%, #eeeeee 75%);
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite;
+  }
+  
+  @keyframes shimmer {
+    0% {
+      background-position: -200% 0;
+    }
+    100% {
+      background-position: 200% 0;
+    }
+  }
+  
+  ion-skeleton-text {
+    margin: 10px 20px;
+    height: 20px;
+    border-radius: 8px;
+  }
+  
+  ion-skeleton-text:last-child {
+    width: 60%;
+    margin-bottom: 16px;
+  }
+  

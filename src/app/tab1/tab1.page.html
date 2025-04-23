@@ -1,0 +1,71 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Home Page</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Welcome to Gaming Hub</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div *ngIf="loading">
+    <ion-card class="headline-card">
+      <ion-skeleton-text animated class="skeleton-image"></ion-skeleton-text>
+      <ion-card-header>
+        <ion-skeleton-text animated style="width: 60%; height: 20px;"></ion-skeleton-text>
+      </ion-card-header>
+      <ion-card-content>
+        <ion-skeleton-text animated style="width: 60%; height: 20px;"></ion-skeleton-text>
+      </ion-card-content>
+      <ion-card-content>
+        <ion-skeleton-text animated style="width: 80%; height: 14px;"></ion-skeleton-text>
+      </ion-card-content>
+    </ion-card>
+  </div>
+  <ion-card button [routerLink]="'/game-details/0'" class="headline-card" *ngIf="!loading">
+    <img src="assets/Images/astro-Bot.jpg" alt="Astro Bot" />
+    <ion-card-header>
+      <ion-card-title>Game of the Year: Astro Bot</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      Blast off on a supersized adventure! Explore planets in search of Astro’s lost crew.
+    </ion-card-content>
+    <ion-card-content>
+      The current generation of video games, led by platforms like the PlayStation 5, Xbox Series X, Nintendo Switch, and modern PCs, showcases a new era of immersive storytelling, breathtaking visuals, and groundbreaking gameplay mechanics. 
+      These platforms push the boundaries of what’s possible, delivering faster load times, stunning 4K graphics, and innovative features like ray tracing, adaptive feedback, and unparalleled customization options on PC.
+      Whether it's the sprawling open-world adventures on the PS5, the vibrant multiplayer experiences on the Xbox Series X, the unique hybrid design of the Nintendo Switch, or the cutting-edge performance and flexibility of PC gaming, this generation has something for every gamer to enjoy and redefine how we experience gaming.
+    </ion-card-content>
+  </ion-card>
+
+  <div *ngIf="loading" class="platform-games">
+    <ion-card class="game-card" *ngFor="let _ of [1, 2, 3, 4]">
+      <ion-skeleton-text class="skeleton-image" animated></ion-skeleton-text>
+      <ion-card-content>
+        <ion-skeleton-text animated style="width: 80%; height: 14px;"></ion-skeleton-text>
+      </ion-card-content>
+    </ion-card>
+  </div>
+
+  <!-- Platform Games -->
+  <div class="platform-games" *ngIf="!loading">
+    <ion-card button [routerLink]="'/game-details/1'" class="game-card">
+      <img src="assets/Images/God-of-war_Ragnarok.jpeg" alt="God of War Ragnarok" />
+      <ion-card-content>God of War Ragnarok</ion-card-content>
+    </ion-card>
+    <ion-card button [routerLink]="'/game-details/11'" class="game-card">
+      <img src="assets/Images/HaloIF.jpg" alt="Halo Infinite" />
+      <ion-card-content>Halo Infinite</ion-card-content>
+    </ion-card>
+    <ion-card button [routerLink]="'/game-details/20'" class="game-card">
+      <img src="assets/Images/ZeldaToK.webp" alt="Zelda: Tears of the Kingdom" />
+      <ion-card-content>Zelda: Tears of the Kingdom</ion-card-content>
+    </ion-card>
+    <ion-card button [routerLink]="'/game-details/30'" class="game-card">
+      <img src="assets/Images/baldursgate3.jpg" alt="Baldur's Gate 3" />
+      <ion-card-content>Baldur's Gate 3</ion-card-content>
+    </ion-card>
+  </div>
+</ion-content>

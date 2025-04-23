@@ -1,0 +1,295 @@
+{
+    "Sony": [
+      {
+        "id": "0",
+        "name": "Astro Bot",
+        "releaseDate": "2024-09-06",
+        "esrb": "E",
+        "description": "Blast off on a supersized adventure From sandy beaches to lush jungles and piping-hot volcanoes, explore a myriad of memorable planets in search of Astro’s lost crew!",
+        "image": "assets/Images/astro-Bot.jpg"
+      },
+      {
+        "id": "1",
+        "name": "God of War Ragnarok",
+        "releaseDate": "2022-11-09",
+        "esrb": "M",
+        "description": "Kratos and Atreus Journey through the Nine Realms to stop Odin and make Ragnarok happen.",
+        "image": "assets/Images/God-of-war_Ragnarok.jpeg"
+      },
+      {
+        "id": "2",
+        "name": "Uncharted: Legacy of Thieves Collection",
+        "releaseDate": "2022-01-28",
+        "esrb": "T",
+        "description": "Play as Nathan Drake and Chloe Frazer in their own standalone adventures as they are forced to confront their pasts and forge their own legacies.",
+        "image": "assets/Images/UnchartedLoT.jpg"
+      },
+      {
+        "id": "3",
+        "name": "Horizon Forbidden West",
+        "releaseDate": "2022-02-18",
+        "esrb": "T",
+        "description": "Join Aloy as she braves the Forbidden West – a majestic but dangerous frontier that conceals mysterious new threats.",
+        "image": "assets/Images/Horizon_FW.jpeg"
+      },
+      {
+        "id": "4",
+        "name": "Marvel's Spider-Man 2",
+        "releaseDate": "2023-10-20",
+        "esrb": "T",
+        "description": "Spider-Men, Peter Parker and Miles Morales, return for an exciting new adventure in the critically acclaimed Marvel’s Spider-Man franchise for PS5.",
+        "image": "assets/Images/MSP2.jpeg"
+      },
+      {
+        "id": "5",
+        "name": "Gran Turismo 7",
+        "releaseDate": "2022-03-04",
+        "esrb": "E",
+        "description": "Whether you’re a competitive or casual racer, collector, tuner, livery designer or photographer – find your line with a staggering collection of game modes including fan-favorites like GT Campaign, Arcade and Driving School.",
+        "image": "assets/Images/GT7.jpg"
+      },
+      {
+        "id": "6",
+        "name": "Dragon Ball: Sparking Zero",
+        "releaseDate": "2024-10-08",
+        "esrb": "T",
+        "description": "DRAGON BALL: Sparking! ZERO takes the legendary gameplay of the Budokai Tenkaichi series and raises it to whole new levels. DRAGON BALL: Sparking! ZERO has an incredible number of playable characters, each with signature abilities, transformations and techniques. Unleash the fighting spirit within you and take the fight to arenas that crumble and react to your power as the battle rages on.",
+        "image": "assets/Images/DBSPZ.jpg"
+      },
+      {
+        "id": "7",
+        "name": "The Last of Us Part 1",
+        "releaseDate": "2022-10-02",
+        "esrb": "M",
+        "description": "In a ravaged civilization, where infected and hardened survivors run rampant, Joel, a weary protagonist, is hired to smuggle 14-year-old Ellie out of a military quarantine zone. However, what starts as a small job soon transforms into a brutal cross-country journey.",
+        "image": "assets/Images/LoUP1.jpg"
+      },
+      {
+        "id": "8",
+        "name": "The Last of Us Part II",
+        "releaseDate": "2020-06-19",
+        "esrb": "M",
+        "description": "Five years after their dangerous journey across the post-pandemic United States, Ellie and Joel have settled down in Jackson, Wyoming. Living amongst a thriving community of survivors has allowed them peace and stability, despite the constant threat of the infected and other, more desperate survivors.",
+        "image": "assets/Images/LoUP2.jpg"
+      },
+      {
+        "id": "9",
+        "name": "Ghost of Tsushima",
+        "releaseDate": "2022-07-17",
+        "esrb": "M",
+        "description": "Ghost of Tsushima is an action game set in feudal Japan. Players take the role of Jin Sakai, a samurai risking everything to defend Tsushima from the Mongol invaders pillaging the land. Players travel the Japanese countryside helping civilians and defending them from the Mongol invaders.",
+        "image": "assets/Images/GoT.png"
+      },
+      {
+        "id": "10",
+        "name": "Ratchet & Clank: Rift Apart",
+        "releaseDate": "2021-06-11",
+        "esrb": "T",
+        "description": "Go dimension-hopping with Ratchet and Clank as they take on an evil emperor from another reality. Jump between action-packed worlds, and beyond at mind-blowing speeds – complete with dazzling visuals and an insane arsenal – as the intergalactic adventurers blast onto the PS5™ console.",
+        "image": "assets/Images/Ratchet_Clank_DA.jpg"
+      }
+    ],
+    "Microsoft": [{
+        "id": "11",
+        "name": "Halo Infinite",
+        "releaseDate": "2021-12-08",
+        "esrb": "T",
+        "description": "Master Chief returns to fight the Banished.",
+        "image": "assets/Images/HaloIF.jpg"
+      },
+      {
+        "id": "12",
+        "name": "Starfield",
+        "releaseDate": "2023-09-06",
+        "esrb": "M",
+        "description": "Starfield is the first new universe in over 25 years from Bethesda Game Studios, the award-winning creators of The Elder Scrolls V: Skyrim and Fallout 4. In this next-generation role-playing game set amongst the stars, create any character you want and explore with unparalleled freedom as you embark on an epic journey to answer humanity’s greatest mystery.",
+        "image": "assets/Images/StarField.jpeg"
+      },
+      {
+        "id": "13",
+        "name": "Forza Horizon 5",
+        "releaseDate": "2021-11-09",
+        "esrb": "E",
+        "description": "Your ultimate Horizon adventure awaits! Explore the vibrant and ever-evolving open-world landscapes of Mexico with limitless, fun driving action in hundreds of the world’s greatest cars.",
+        "image": "assets/Images/ForzaHorizon5.jpg"
+      },
+      {
+        "id": "14",
+        "name": "Sea of Thieves",
+        "releaseDate": "2018-03-20",
+        "esrb": "T",
+        "description": "Sea of Thieves offers the essential pirate experience, from sailing and fighting to exploring and looting – everything you need to live the pirate life.",
+        "image": "assets/Images/SoT.jpg"
+      },
+      {
+        "id": "15",
+        "name": "Gears 5",
+        "releaseDate": "2019-09-10",
+        "esrb": "M",
+        "description": "From one of gaming’s most acclaimed sagas, Gears is bigger than ever, with five thrilling modes and the deepest campaign yet.",
+        "image": "assets/Images/Gears.jpg"
+      },
+      {
+        "id": "16",
+        "name": "Grounded",
+        "releaseDate": "2022-09-27",
+        "esrb": "T",
+        "description": "The world is a vast, beautiful, and dangerous place – especially when you have been shrunk to the size of an ant. Explore, build, and survive together in this multiplayer survival adventure.",
+        "image": "assets/Images/Grounded.jpg"
+      },
+      {
+        "id": "17",
+        "name": "Fable",
+        "releaseDate": "TBA",
+        "esrb": "RP",
+        "description": "A new beginning for the legendary franchise. Explore a land of fantastical creatures and wondrous places, where your choices shape the world around you.",
+        "image": "assets/Images/Fable.jpg"
+      },
+      {
+        "id": "18",
+        "name": "State of Decay 3",
+        "releaseDate": "TBA",
+        "esrb": "RP",
+        "description": "State of Decay 3 is the next evolution in the franchise, bringing players into a post-apocalyptic world of zombies and survival like never before.",
+        "image": "assets/Images/StateOD3.jpg"
+      },
+      {
+        "id": "19",
+        "name": "Avowed",
+        "releaseDate": "2024-02-15",
+        "esrb": "RP",
+        "description": "Dive into an epic first-person RPG set in the fantasy world of Eora, developed by Obsidian Entertainment. Unleash magical powers and fight to uncover the truth.",
+        "image": "assets/Images/avowed.webp"
+      }
+    ],
+    "Nintendo": [{
+        "id": "20",
+        "name": "Legend of Zelda: Tears of the Kingdom",
+        "releaseDate": "2023-05-12",
+        "esrb": "E10+",
+        "description": "Decide your own path through the sprawling landscapes of Hyrule and the mysterious islands floating in the vast skies above.",
+        "image": "assets/Images/ZeldaToK.webp"
+      },
+      {
+        "id": "21",
+        "name": "Fire Emblem Engage",
+        "releaseDate": "2023-01-20",
+        "esrb": "T",
+        "description": "Summon legendary heroes and lead your army to save the continent of Elyos in this tactical RPG.",
+        "image": "assets/Images/FireEm.jpeg"
+      },
+      {
+        "id": "22",
+        "name": "Super Mario Odyssey",
+        "releaseDate": "2017-10-27",
+        "esrb": "E10+",
+        "description": "Join Mario on a massive, globe-trotting 3D adventure to save Princess Peach from Bowser’s wedding plans!",
+        "image": "assets/Images/SMOdyssey.png"
+      },
+      {
+        "id": "23",
+        "name": "Animal Crossing: New Horizons",
+        "releaseDate": "2020-03-20",
+        "esrb": "E",
+        "description": "Escape to a deserted island and create your own paradise as you explore, create, and customize in Animal Crossing: New Horizons.",
+        "image": "assets/Images/AnimalCrossing.jpeg"
+      },
+      {
+        "id": "24",
+        "name": "Splatoon 3",
+        "releaseDate": "2022-09-09",
+        "esrb": "E10+",
+        "description": "Join the Splatfest as you dive into a colorful and chaotic multiplayer experience in the third installment of the Splatoon series.",
+        "image": "assets/Images/splatoon3.jpeg"
+      },
+      {
+        "id": "25",
+        "name": "Mario Kart 8 Deluxe",
+        "releaseDate": "2017-04-28",
+        "esrb": "E",
+        "description": "Race your friends or battle them in a revised battle mode on new and returning battle courses. Play locally or online with up to 12 players.",
+        "image": "assets/Images/mariokart8.jpg"
+      },
+      {
+        "id": "26",
+        "name": "Metroid Dread",
+        "releaseDate": "2021-10-08",
+        "esrb": "T",
+        "description": "Join intergalactic bounty hunter Samus Aran as she tries to escape a deadly alien world plagued by a mechanical menace.",
+        "image": "assets/Images/metroid.jpeg"
+      },
+      {
+        "id": "27",
+        "name": "Pokemon Scarlet and Violet",
+        "releaseDate": "2022-11-18",
+        "esrb": "E",
+        "description": "Embark on a new Pokémon adventure in the open-world Paldea region, catching, battling, and exploring as you train your dream team.",
+        "image": "assets/Images/pokemon-scarlet-and-violet.jpeg"
+      }
+    ],
+    "PC": [{
+        "id": "30",
+        "name": "Baldur’s Gate 3",
+        "releaseDate": "2023-08-03",
+        "esrb": "M",
+        "description": "Gather your party and return to the Forgotten Realms in a tale of fellowship and betrayal, sacrifice and survival, and the lure of absolute power.",
+        "image": "assets/Images/baldursgate3.jpg"
+      },
+      {
+        "id": "31",
+        "name": "Cyberpunk 2077",
+        "releaseDate": "2020-12-10",
+        "esrb": "M",
+        "description": "An open-world, action-adventure story set in Night City, a megalopolis obsessed with power, glamour, and body modification. Play as V, a mercenary outlaw searching for a one-of-a-kind implant that is the key to immortality.",
+        "image": "assets/Images/Cyberpunk2077.jpeg"
+      },
+      {
+        "id": "32",
+        "name": "The Witcher 3: Wild Hunt",
+        "releaseDate": "2015-05-18",
+        "esrb": "M",
+        "description": "Become Geralt of Rivia, a monster hunter for hire, as you explore a visually stunning open world rife with adventure and intrigue.",
+        "image": "assets/Images/witcher.png"
+      },
+      {
+        "id": "33",
+        "name": "League of Legends",
+        "releaseDate": "2009-10-27",
+        "esrb": "T",
+        "description": "A fast-paced, competitive online game that blends the speed and intensity of an RTS with RPG elements.",
+        "image": "assets/Images/LoL.jpg"
+      },
+      {
+        "id": "34",
+        "name": "Minecraft",
+        "releaseDate": "2011-11-18",
+        "esrb": "E10+",
+        "description": "Create, explore, and survive in a sandbox world of endless possibilities.",
+        "image": "assets/Images/minecraft.png"
+      },
+      {
+        "id": "35",
+        "name": "Valorant",
+        "releaseDate": "2020-06-02",
+        "esrb": "T",
+        "description": "A 5v5 character-based tactical shooter where precise gunplay meets unique agent abilities.",
+        "image": "assets/Images/valorant.png"
+      },
+      {
+        "id": "36",
+        "name": "Elden Ring",
+        "releaseDate": "2022-02-25",
+        "esrb": "M",
+        "description": "Rise, Tarnished, and be guided by grace to brandish the power of the Elden Ring and become an Elden Lord in the Lands Between.",
+        "image": "assets/Images/eldenring.jpg"
+      },
+      {
+        "id": "37",
+        "name": "Hades",
+        "releaseDate": "2020-09-17",
+        "esrb": "T",
+        "description": "Battle your way out of the Underworld in this rogue-like dungeon crawler from the creators of Bastion and Transistor.",
+        "image": "assets/Images/hades.png"
+      }
+    ]
+  }
