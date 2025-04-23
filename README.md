@@ -37,4 +37,4 @@ This project demonstrates core Angular concepts including components, routing, s
 ---
 
 ## 📁 Folder Structure
-
+gaming-hub/ ├── src/ │ ├── app/ │ │ ├── components/ │ │ ├── services/ │ │ ├── models/ │ │ └── pages/ ├── assets/ ├── angular.json ├── package.json └── ...
